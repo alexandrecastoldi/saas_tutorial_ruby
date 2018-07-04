@@ -12,3 +12,4 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'radiant-hollows-65088.herokuapp.com',
   :authentication => :plain,
 }
+ActionMailer::Base.delivery_method = :smtp
